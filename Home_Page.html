@@ -19,23 +19,23 @@
    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md fixed-top bg-white shadow">
+    <header id="headd">
+        <nav class="navbar navbar-expand-md fixed-top bg-white shadow p-0">
             <div class="container-fluid m-0 ">
                 <a class="text-dark text-decoration-none text_gap">LOGO</a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsiblenav">
                     <span class="navbar-toggler-icon  "></span>
                 </button>
-                <div class="collapse navbar-collapse" id="collapsiblenav">
-                    <ul class="navbar-nav ms-auto me-5 p-1">
-                            <li class="list-unstyled nav-item px-3 py-2"><a class="text-decoration-none text-muted " href="#"> About</a></li>
-                            <li class="list-unstyled nav-item px-3 py-2"><a class="text-decoration-none text-muted" href="#">
+                <div class="collapse navbar-collapse p-0 m-0" id="collapsiblenav">
+                    <ul class="navbar-nav ms-auto me-5 ">
+                            <li class="list-unstyled nav-item px-4 py-2"><a class="text-decoration-none text-muted " href="#about"> About</a></li>
+                            <li class="list-unstyled nav-item px-3 py-2"><a class="text-decoration-none text-muted" href="#team">
                                 <i class="fa-solid fa-user px-2"></i> Team</a></li>
-                            <li class="list-unstyled nav-item px-3 py-2"><a class="text-decoration-none  text-muted" href="#">
+                            <li class="list-unstyled nav-item px-3 py-2"><a class="text-decoration-none  text-muted" href="#work">
                                 <i class="fa-solid fa-briefcase px-2"></i> Work</a></li>
-                            <li class="list-unstyled nav-item px-3 py-2"><a class="text-decoration-none text-muted" href="#">
+                            <li class="list-unstyled nav-item px-3 py-2"><a class="text-decoration-none text-muted" href="#pricing">
                                 <i class="fa-solid fa-dollar-sign px-2"></i> Pricing</a></li>
-                            <li class="list-unstyled nav-item px-3 py-2"><a class="text-decoration-none text-muted" href="#">
+                            <li class="list-unstyled nav-item px-3 py-2"><a class="text-decoration-none text-muted" href="#contact">
                                 <i class="fa-solid fa-envelope px-2"></i> Contact</a></li>
                         
                     </ul>
@@ -43,14 +43,14 @@
             </div>
         </nav>
     </header>
-     <section class="section1 container-fluid mt-5 ">
+     <section class="section1 container-fluid mt-4 ">
         <div class=" text-white text_move">
             <p class="p-2">Start something that matters</p>
             <p class="p-2">Stop wasting valuable time with projects that just isn't you.</p>
             <button class="btn text-black bg-secondary p-3 m-3 px-4 border border-secondary rounded-2">Learn more and Start today</button>
             </div>
     </section>
-     <section class="section2 container p-5">
+     <section class="section2 container p-5 " id="about">
         <h3 class="text-center pt-5">ABOUT THE COMPANY</h3>
         <p class="text-center p-3 text-muted">Key features of our company</p>
         <div class="row pt-3 g-4">
@@ -112,7 +112,7 @@
             
         </div>
     </section>
-    <section class="section3 container-fluid">
+    <section class="section3 container-fluid" >
             <div class="row p-5">
                 <div class="col-sm-6 pt-5 px-3">
                     <div class="p-3 ">
@@ -129,7 +129,7 @@
                 </div>
             </div>
     </section>
-    <section class="section4 container-fluid p-5">
+    <section class="section4 container-fluid p-5" id="team">
         <div class="text-center p-5">
             <p>THE TEAM</p>
             <p>The ones who runs this company</p>
@@ -203,7 +203,7 @@
             </div>
   </section>
 
-  <section class="section6 container-fluid p-2">
+  <section class="section6 container-fluid p-2" id="work">
         <div class="text-center p-5">
             <p>OUR WORK</p>
             <p>What we've done for people</p>
@@ -274,7 +274,7 @@
             </div>
         </div>
     </section>
-    <section class="section8 p-5">
+    <section class="section8 p-5" id="pricing">
         <div class="text-center text-white p-5 sec8p1">
             <p>PRICING</p>
             <p>Choose a pricing plan that fits your needs.</p>
@@ -343,7 +343,7 @@
             
         </div>
     </section>
-    <section class="section9 container-fulid pt-5">
+    <section class="section9 container-fulid pt-5" id="contact">
         <div class="text-center text-dark p-5 sec9p1">
             <p class="pt-5">CONTACT</p>
             <p class="pt-2">Lets get in touch. Send us a message:</p>
@@ -376,5 +376,28 @@
         </form>
 
     </section>
+    <section class="section10 container-fluid">
+        <div>
+            <img src="Images/map.jpg" alt="photo" class="img-fluid mx-auto sec10img p-1">
+        </div>
+    </section>
+    <footer class="footer  text-center ">
+        <div class="p-5 ">
+            <div class="p-2 m-3 fp1">
+                <a class="text-decoration-none bg-white p-3 text-dark" href="#headd">
+                    <i class="fa-solid fa-arrow-up pe-2"></i>
+                    TO THE TOP
+                </a>
+            </div>
+            <div class="text-white fp2 p-2">
+                <a class="text-decoration-none text-white pe-1" href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a class="text-decoration-none text-white pe-1" href="#"><i class="fa-brands fa-instagram"></i> </a>         
+                <a class="text-decoration-none text-white pe-1" href="#"><i class="fa-brands fa-square-snapchat"></i></a>
+                <a class="text-decoration-none text-white pe-1" href="#"><i class="fa-brands fa-twitter"></i> </a>       
+                <a class="text-decoration-none text-white pe-1" href="#"> <i class="fa-brands fa-linkedin-in"></i></a>    
+                <p > ~Powered by Sahil</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
