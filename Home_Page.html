@@ -16,137 +16,11 @@
     <script src="vendors/jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.js"></script>
 
-    <style>
-        *{
-            font-family: "Raleway", "sans-serif";
-            margin: 0;
-            padding: 0;
-            font-weight:200;
-        }
-
-        .section1{
-            position:relative;
-        background-image: url("Images/mac.jpg");
-        height:750px;
-        width:100%;
-        object-fit:contain;
-        background-position: center;
-        }  
-        .text_move{
-            position:absolute;
-            top:30%;
-            left:3%;
-        }
-        .section1>div>p:nth-child(1){
-            font-size:64px;
-            font-weight:100;
-            letter-spacing:1.5px;
-            word-spacing:1.3px;
-        }
-        .section1>div>p:nth-child(2){
-            font-size:18px;
-            font-size:100;
-            letter-spacing:1.4px;
-            word-spacing:1.5px;
-        }
-        .text_gap{
-            letter-spacing:2px;
-            font-weight: 300;
-        }
-        .iconfont2{
-            font-size:50px;
-            
-        }
-        .section2>p{
-            font-size:20px;
-            letter-spacing:1.5px;
-            font-weight:300;
-        }
-        .section2>div>div>div>p:nth-child(3){
-            font-weight:100;
-            line-height: 1.6;
-           word-spacing: 1.2px;
-           letter-spacing:1px;
-        }
-        .section2{
-                font-family: "Raleway", "sans-serif";
-        }
-        .section3{
-            background-color:#f1f1f1;
-            font-family: "Raleway"," sans-serif";
-        }
-        .sec3para{
-            font-size:17px;
-            font-weight:200;
-        }
-        .fontw{
-            font-weight:200;
-        }
-        .sec3para + button:hover{
-            background-color:#a9a8a8;
-            border-color:#a9a8a8;
-            color:black !important;
-        }
-        .section4 >div>div>div>img{
-             filter: grayscale(70%);
-        }
-        .bg_rabdi{
-            background-color:#f1f1f1;
-        }
-        .bg_rabdi:hover{
-            background-color:#c9c9c9;
-        }
-        .section4>div>p:nth-child(1){
-            font-size:22px;
-            font-weight:100;
-            font-family: "Raleway", "sans-serif";
-        }
-         .section4>div>p:nth-child(2){
-            font-size:16px;
-            font-weight:100;
-            font-family: "Raleway"," sans-serif";
-        }
-        .sec5bg{
-            background-color:#616161;
-        }
-        .section5>div>div>p:nth-child(1){
-            font-size:27px;
-        }
-         .section5>div>div>p:nth-child(2){
-            font-size:15px;
-        }
-        .section6>div>p:nth-child(1){
-            font-size:22px;
-            font-weight:100;
-            font-family: "Raleway", "sans-serif";
-        }
-         .section6>div>p:nth-child(2){
-            font-size:16px;
-            font-weight:100;
-            font-family: "Raleway", "sans-serif";
-        }
-        .hoverwhite>div>img:hover{
-            filter:opacity(50%)
-        }
-        .section7{
-            background-color:#f1f1f1;
-        }
-        .pbar{
-            background-color:#9e9e9e;
-            height:25px;
-        }
-        .pbar>div{
-            background-color: #616161;
-        }
-        .sec7p2>div>p{
-            letter-spacing:1.5px;
-            font-family:"Raleway","sans-serif";
-        }
-    </style>
+   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md ">
+        <nav class="navbar navbar-expand-md fixed-top bg-white shadow">
             <div class="container-fluid m-0 ">
                 <a class="text-dark text-decoration-none text_gap">LOGO</a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsiblenav">
@@ -169,7 +43,7 @@
             </div>
         </nav>
     </header>
-     <section class="section1 container-fluid">
+     <section class="section1 container-fluid mt-5 ">
         <div class=" text-white text_move">
             <p class="p-2">Start something that matters</p>
             <p class="p-2">Stop wasting valuable time with projects that just isn't you.</p>
@@ -399,6 +273,108 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="section8 p-5">
+        <div class="text-center text-white p-5 sec8p1">
+            <p>PRICING</p>
+            <p>Choose a pricing plan that fits your needs.</p>
+        </div>
+        <div class="row g-5 ">
+            <div class="col-sm-4 sec8p21 ">
+                <div class="text-center rounded-0  mt-3 ">
+                    <div class=" p-4 bg-dark text-white  sec8p2head"> Basic  </div>
+                    <div class="bg-white sec8p2body ">
+                        <p class="p-4 border border-top-0 border-start-0 border-end-0"><bold class="cardbold">10GB</bold> Storage</p>
+                        <p class="p-3 border border-top-0 border-start-0 border-end-0"><bold class="cardbold">10</bold> Emails</p>
+                        <p class="p-3 border border-top-0 border-start-0 border-end-0"><bold class="cardbold">10</bold> Domains</p>
+                        <p class="p-3 border border-top-0 border-start-0 border-end-0"><bold class="cardbold">Endless Support</bold></p>
+                        <p class="p-3 border border-top-0 border-start-0 border-end-0 m-0 sec8p2bpricing">
+                            $ 10
+                           <br>
+                           <span class="text-muted">per month</span>
+                        </p>
+                    </div>
+                    <div class="sec8p2btn p-4 sec8p2foot">
+                        <button class="btn bg-dark text-white p- rounded-0 px-4" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-sm-4 sec8p22">
+                <div class="text-center rounded-0   ">
+                    <div class=" p-5  text-white  sec8p2head2"> Pro  </div>
+                    <div class="bg-white sec8p2body ">
+                        <p class="p-4 border border-top-0 border-start-0 border-end-0"><bold class="cardbold">25GB</bold> Storage</p>
+                        <p class="p-3 border border-top-0 border-start-0 border-end-0"><bold class="cardbold">25</bold> Emails</p>
+                        <p class="p-3 border border-top-0 border-start-0 border-end-0"><bold class="cardbold">25</bold> Domains</p>
+                        <p class="p-3 border border-top-0 border-start-0 border-end-0"><bold class="cardbold">Endless Support</bold></p>
+                        <p class="p-3 border border-top-0 border-start-0 border-end-0 m-0 sec8p2bpricing">
+                            $ 25
+                           <br>
+                           <span class="text-muted">per month</span>
+                        </p>
+                    </div>
+                    <div class="sec8p2btn p-4 sec8p2foot">
+                        <button class="btn bg-dark text-white p- rounded-0 px-4" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-sm-4 sec8p23">
+                <div class="text-center rounded-0  mt-3 ">
+                    <div class=" p-4 bg-dark text-white  sec8p2head3"> Premium  </div>
+                    <div class="bg-white sec8p2body ">
+                        <p class="p-4 border border-top-0 border-start-0 border-end-0"><bold class="cardbold">50GB</bold> Storage</p>
+                        <p class="p-3 border border-top-0 border-start-0 border-end-0"><bold class="cardbold">50</bold> Emails</p>
+                        <p class="p-3 border border-top-0 border-start-0 border-end-0"><bold class="cardbold">50</bold> Domains</p>
+                        <p class="p-3 border border-top-0 border-start-0 border-end-0"><bold class="cardbold">Endless Support</bold></p>
+                        <p class="p-3 border border-top-0 border-start-0 border-end-0 m-0 sec8p2bpricing">
+                            $ 50
+                           <br>
+                           <span class="text-muted">per month</span>
+                        </p>
+                    </div>
+                    <div class="sec8p2btn p-4 sec8p2foot">
+                        <button class="btn bg-dark text-white p- rounded-0 px-4" type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+    <section class="section9 container-fulid pt-5">
+        <div class="text-center text-dark p-5 sec9p1">
+            <p class="pt-5">CONTACT</p>
+            <p class="pt-2">Lets get in touch. Send us a message:</p>
+        </div>
+        <ul class="sec9list">
+            <li class="list-unstyled p-2"><i class="fa fa-solid fa-location-dot  px-3 sec9icon"></i> Sirsa , Haryana</li>
+            <li class="list-unstyled p-2"><i class="fa fa-solid fa-phone px-3 sec9icon"></i> Phone +91 999**-***75</li>
+            <li class="list-unstyled p-2"><i class="fa fa-solid fa-envelope px-3 sec9icon"></i> sahiljyani27@gmail.com</li>
+        </ul>
+        <form class="form-floating pb-5">
+             <div class="form-floating mb-3 mt-3 mx-4">
+                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                <label for="name">Name</label>
+            </div>
+            <div class="form-floating mb-3 mt-3 mx-4">
+                <input type="email" class="form-control" id="mail" placeholder="Enter mail" name="mail">
+                <label for="mail">Email</label>
+            </div>
+             <div class="form-floating mb-3 mt-3 mx-4">
+                <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
+                <label for="subject">Subject</label>
+            </div>
+             <div class="form-floating mb-3 mt-3 mx-4">
+                <input type="text" class="form-control" id="name" placeholder="Enter Message" name="message">
+                <label for="message">Message</label>
+            </div>
+            <div>
+                <button class="btn text-white bg-dark rounded-0 mx-4 sec9btn" type="button"><i class="fa-regular fa-paper-plane px-2"></i>SEND MESSAGE</button>
+            </div>
+        </form>
+
     </section>
 </body>
 </html>
